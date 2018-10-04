@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageViewTime"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalhesTime">
+
+    <ImageView
+        android:id="@+id/imageViewTimes"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textViewDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="123dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="Futbol Club Barcelona, também conhecido como Barcelona e popularmente como Barça, é um clube de futebol profissional, com sede em Barcelona, Catalunha. Para a temporada 2017/2018, a equipe joga a La Liga, na Espanha. Fundado em 1899 por um grupo de futebolistas suíços, ingleses e catalães" />
+</LinearLayout>

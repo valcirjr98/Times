@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         this.criarTimes();
 
-        AdapterTimes adapterTimes = new AdapterTimes(listaTimes);
+        AdapterTimes adapterTimes = new AdapterTimes(this, listaTimes);
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerViewTimes.setLayoutManager(layoutManager);

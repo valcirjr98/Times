@@ -48,4 +48,6 @@ public class Time implements Serializable {
     public void setImagemLogo(int imagemLogo) {
         this.imagemLogo = imagemLogo;
     }
+
+
 }
